@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initToolbar();
+        initNavigationView();
 
     }
 
@@ -34,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         toolbar.inflateMenu(R.menu.menu);
+    }
+
+    private void initNavigationView() {
+
     }
 }
